@@ -3,11 +3,32 @@
 <html>
 
 <head>
+	<title>Accessible Portfolio</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<nav role="navigation">
+		<a href="#about_me">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+    </nav>
+	<header id="about_me">
+        <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Profile picture" role="img">
+        <h1 role="heading">Joydeep Sarkar</h1>
+        <p>I am a 2022 B.Tech Graduate in Computer Science with a strong foundation in Data Structures & Algorithms. Proficient in Java, Java Swing, HTML, CSS, SQL and also familiar with other tools & technologies like Maven, Apache Tomcat, JSP, GitHub, IntelliJ, VSCode.Eager to take on challenges in a reputed organization, passionate about continuous learning and dedicated to contributing to team success.</p>
+    </header>
+	<section id="hobbies">
+        <h3>Hobbies</h2>
+        <ul role="list">
+            <li role="listitem">Listening Music</li>
+            <li role="listitem">Gaming</li>
+            <li role="listitem">Foodie</li>
+            <li role="listitem">Travelling</li>
+        </ul>
+    </section>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
